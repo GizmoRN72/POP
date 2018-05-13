@@ -1,0 +1,307 @@
+@charset "utf-8";
+.navbar-default {
+  background-color: #5F93A1;
+  border-color: #346f7e;
+}
+.navbar-logo {
+  float: left;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+}
+.navbar-default .navbar-brand {
+  color: #ffffff;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+  color: #000000;
+}
+.navbar-default .navbar-text {
+  font-size: 2em
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+  color: #000000;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu {
+  background-color: #4896aa;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a {
+  color: #ffffff;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:hover,
+.navbar-default .navbar-nav > li > .dropdown-menu > li > a:focus {
+  color: #000000;
+  background-color: #346f7e;
+}
+.navbar-default .navbar-nav > li > .dropdown-menu > li > .divider {
+  background-color: #346f7e;
+}
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+.navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+  color: #000000;
+  background-color: #346f7e;
+}
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #000000;
+  background-color: #346f7e;
+}
+.navbar-default .navbar-nav > .open > a,
+.navbar-default .navbar-nav > .open > a:hover,
+.navbar-default .navbar-nav > .open > a:focus {
+  color: #000000;
+  background-color: #346f7e;
+}
+.navbar-default .navbar-toggle {
+  border-color: #346f7e;
+}
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #346f7e;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #ffffff;
+}
+.navbar-default .navbar-collapse,
+.navbar-default .navbar-form {
+  border-color: #ffffff;
+}
+.navbar-default .navbar-link {
+  color: #ffffff;
+}
+.navbar-default .navbar-link:hover {
+  color: #000000;
+}
+.jumbotron {
+	padding: 10px;
+	margin-bottom: 5px;
+	color: inherit;
+	background-color: #fff;
+}
+.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:500px;
+    height:auto;
+    display:block;
+    z-index:999;
+}
+
+ /* Popup container */
+.popup {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+#pop {
+	font-family: Georgia,Times,Times New Roman,serif;
+	color: #426676;
+}
+
+#Welcome {
+	position: relative;
+  color: #F0D754;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  text-shadow: 2px 2px 5px rgba(171,167,167,0.85);
+}
+#Welcome h1 {
+  position: absolute;
+  font-size: 5em;
+  left: 3%;
+}
+#Welcome h2 {
+  position: absolute;
+  top: 15px;
+  font-size: 3.5em;
+  left: 3%;
+}
+#Welcome h3 {
+  position: absolute;
+  top: 70px;
+  font-size: 2.5em;
+  left: 3%;
+}
+#Welcome h4 {
+  position: absolute;
+  top: 120px;
+  font-size: 1.5em;
+  left: 3%;
+}
+
+#WhatsHappening {
+	position: relative;
+  color: #F0D754;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  text-shadow: 2px 2px 5px rgba(171,167,167,0.85);
+}
+#WhatsHappening h1 {
+	position: absolute;
+	font-size: 5em;
+  left: 3%;
+}
+#WhatsHappening h2 {
+  position: absolute;
+  top: 15px;
+  font-size: 3.5em;
+  left: 3%;
+}
+#WhatsHappening h3 {
+  position: absolute;
+  top: 70px;
+  font-size: 2.5em;
+  left: 3%;
+}
+#WhatsHappening h4 {
+  position: absolute;
+  top: 120px;
+  font-size: 1.5em;
+  left: 3%;
+}
+
+#BeInvolved {
+	position: relative;
+  color: #F0D754;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  text-shadow: 2px 2px 5px rgba(171,167,167,0.85);
+}
+#BeInvolved h1 {
+	position: absolute;
+	font-size: 5em;
+  left: 3%;
+}
+#BeInvolved h2 {
+  position: absolute;
+  top: 15px;
+  font-size: 3.5em;
+  left: 3%;
+}
+#BeInvolved h3 {
+  position: absolute;
+  top: 70px;
+  font-size: 2.5em;
+  left: 3%;
+}
+#BeInvolved h4 {
+  position: absolute;
+  top: 120px;
+  font-size: 1.5em;
+  left: 3%;
+}
+
+#ContactUs{
+	position: relative;
+  color: #F0D754;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  text-shadow: 2px 2px 5px rgba(171,167,167,0.85);
+}
+#ContactUs h1 {
+	position: absolute;
+	font-size: 5em;
+  left: 3%;
+}
+#ContactUs h2 {
+  position: absolute;
+  top: 15px;
+  font-size: 3.5em;
+  left: 3%;
+}
+#ContactUs h3 {
+  position: absolute;
+  top: 70px;
+  font-size: 2.5em;
+  left: 3%;
+}
+#ContactUs h4 {
+  position: absolute;
+  top: 120px;
+  font-size: 1.5em;
+  left: 3%;
+}
+
+#Giving{
+	position: relative;
+  color: #F0D754;
+  font-family: Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", serif;
+  text-shadow: 2px 2px 5px rgba(171,167,167,0.85);
+}
+#Giving h1 {
+	position: absolute;
+	font-size: 5em;
+  left: 3%;
+}
+#Giving h2 {
+  position: absolute;
+  top: 15px;
+  font-size: 3.5em;
+  left: 3%;
+}
+#Giving h3 {
+  position: absolute;
+  top: 70px;
+  font-size: 2.5em;
+  left: 3%;
+}
+#Giving h4 {
+  position: absolute;
+  top: 120px;
+  font-size: 1.5em;
+  left: 3%;
+}
+
+.row .col-md-6 img {
+}
+IMG[SRC$="ColImage.jpg"] {
+	width: 125px;
+	height: 75px;
+	display: block;
+}
+body {
+	padding-top: 50px;
+}
+#feature h2 {
+	text-align: center;
+}
+@media (max-width:649px){
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #ffffff;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #000000;
+  }
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #000000;
+    background-color: #346f7e;
+  }
+	#Welcome h1{
+		font-size: 2em;
+}
+
+}
+
+@media screen and (min-width:650px) and (max-width:959px){
+#Welcome h1 {
+	font-size: 2em;
+
+}
+
+}
+#feature {
+	background-image: url(../images/BlueBackground.jpg);
+	text-align: left;
+}
+.panel-body {
+background:#346f7e;
+    color: #ffffff;
+}
